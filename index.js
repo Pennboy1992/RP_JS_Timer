@@ -42,6 +42,7 @@ const timer = new Timer(durationInput, startButton, pauseButton, {
     console.log('Timer Started!')
   },
   onTick() {
+    console.log('Timer just ticked down')
 
   },
   onComplete() {
